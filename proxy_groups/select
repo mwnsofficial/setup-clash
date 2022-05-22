@@ -1,0 +1,5 @@
+proxy-groups:
+- name: MASTER-PREMIUM
+  type: select
+  use:
+  - akunsimaster
