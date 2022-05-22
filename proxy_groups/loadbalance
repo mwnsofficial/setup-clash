@@ -1,0 +1,10 @@
+proxy-groups:
+- name: MASTER-PREMIUM
+  type: load-balance
+  use:
+  - akunsimaster
+  url: 'http://www.gstatic.com/generate_204'
+  interval: 300
+  lazy: true
+  disable-udp: false
+  strategy: round-robin
