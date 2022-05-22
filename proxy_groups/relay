@@ -1,0 +1,6 @@
+Proxy Groups:
+- name: MASTER-PREMIUM
+  type: relay
+  use:
+  - akunsimaster
+  disable-udp: false
